@@ -1,5 +1,7 @@
-import gleam/io
+import part1
+import part2
 
 pub fn main() {
-  io.println("Hello from day14!")
+  part1.run()
+  part2.run()
 }
